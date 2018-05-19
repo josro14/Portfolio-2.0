@@ -1,0 +1,94 @@
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .navbar-expand-md .navbar-collapse {
+    background: rgba(0,0,0,0.4);
+ } */
+
+.navbar {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    border: solid transparent 2px;
+    border-radius: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    border: solid grey 2px;
+    transition: border .2s ease-in;
+}
+
+.bg-dark {
+    background-color: yellow;
+}
+
+.card {
+    border-radius: 0px;
+}
+
+.card-content {
+    margin: auto;
+    width: 100%;
+    padding: 35px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.card-content h1 {
+    margin: 0 auto;
+    text-align: center; 
+}
+
+p {
+    line-height: 30px;
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+}
+
+#aboutMe {
+    padding: 35px;
+    background: #7E8471;
+}
+
+.bg-image {
+    background-image: url("../images/mountains-evening.png");
+    min-height: 550px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.prof-pic {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    height: 260px;
+    width: 215px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 18px black;
+}
+
+.tool-belt {
+    padding: 35px;
+}
+
+#portfolio {
+    background: #B29575;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
