@@ -37,11 +37,11 @@ app.post('/send', (req, res) => {
     nodemailer.createTestAccount((err, account) => {
         // create reusable transporter object using the default SMTP transport
         let transporter = nodemailer.createTransport({
-            host: 'mail.google.com',
+            host: 'gmail',
             port: 587,
             secure: false, // true for 465, false for other ports
             auth: {
-                user: "jsoro14@gmail.com", // generated ethereal user
+                user: "josro14@gmail.com", // generated ethereal user
                 pass: "Jpr8353!" // generated ethereal password
             },
             tls:{
@@ -53,7 +53,7 @@ app.post('/send', (req, res) => {
         let mailOptions = {
             from: '"Nodemailer Contact" <josro14@gmail.com>', // sender address
             to: 'josro14@gmail.com', // list of receivers
-            subject: 'Node Contact request', // Subject line
+            subject: 'New portfolio contact', // Subject line
             text: 'Hello world?', // plain text body
             html: output // html body
         };
@@ -72,5 +72,4 @@ app.post('/send', (req, res) => {
 
 });
 
-app.listen(3000, () => console.log('Server has started...'))
-
+app.listen(3000, () => console.log('Server has started...'));
