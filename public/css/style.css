@@ -15,6 +15,11 @@ h4 {
     font-size: 50px;
 }
 
+.d-block {
+    height: 600px;
+    width: 600px;
+}
+
 h1 {
     font-family: 'Lato', sans-serif;
     font-size: 80px;
@@ -68,6 +73,11 @@ h2 {
     background-color: #7E8471;
     border-style:solid;
     border-width: 3px;
+    float: right;
+}
+
+.connectWith {
+    margin-top: 40px;
 }
 
 .conn:hover {
@@ -135,6 +145,13 @@ p.card-text {
     padding: 35px;
 }
 
+.btn {
+    margin-top: 10px;
+}
+.contMe {
+    margin-top: 50px;
+}
+
 #portfolio {
     background: #B29575;
 }
@@ -146,4 +163,18 @@ footer {
 
 h1 {
     text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+    .d-block {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .d-block {
+        height: 250px;
+        width: 250px;
+    }
 }
