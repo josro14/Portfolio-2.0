@@ -45,10 +45,10 @@
                     <div class="header-content">
                         <h4 class="card-title folio1">Portfolio</h4>
                         <h1 class="card-title folio2">Josh Roberts</h1>
-                            <br>
-                            <p>Developer | Front End | Back End</p>
+                        <br>
+                        <p>Developer | Front End | Back End</p>
                     </div>
-                            <img src="../public/images/Roberts, Josh.jpg" class="prof-pic" alt="Josh Roberts">
+                    <img src="../public/images/Roberts, Josh1.png" class="prof-pic" alt="Josh Roberts">
 
                 </div>
 
@@ -60,13 +60,13 @@
             <h2 class="about">- About Me -</h2>
             <div class="row">
                 <div class="col-md-8">
-                    <p class="card-text">I am a 23-year-old who is motivated and passionate about learning and facing challenges head-on! I am new to
-                        coding and developing, but am eager to continue to learn more and more each day on my road to mastery. I
-                        truly believe that as long as you continue to struggle and to challenge yourself, that you will only learn
-                        more and improve yourself.</p>
-                    <p class="card-text">Some fun facts about me: I recently got married in May of 2017 to my beautiful wife Hannah, and we live together
-                        in Riverton, Utah. In my free time, I love to play the guitar, get outside and go hit some trails on my mountain
-                        bike, or when it's winter time shred some powder on my snowboard.</p>
+                    <p class="card-text">I am a 23-year-old who is motivated and passionate about learning and facing challenges
+                        head-on! I am new to coding and developing, but am eager to continue to learn more and more each
+                        day on my road to mastery. I truly believe that as long as you continue to struggle and to challenge
+                        yourself, that you will only learn more and improve yourself.</p>
+                    <p class="card-text">Some fun facts about me: I recently got married in May of 2017 to my beautiful wife
+                        Hannah, and we live together in Riverton, Utah. In my free time, I love to play the guitar, get outside
+                        and go hit some trails on my mountain bike, or when it's winter time shred some powder on my snowboard.</p>
                 </div>
                 <div class="col-md-4">
                     <img src="../public/images/Hannah & Josh.jpg" class="hannah-josh-pic" alt="Hannah & Josh" height="236px" width="352px">
@@ -78,6 +78,85 @@
             <h2>- Projects -</h2>
             <div class="row mt-4">
                 <div class="col-md-1"></div>
+
+                {{!-- CAROUSEL --}}
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="../public/images/Giphy-Icon.png" alt="Giphy Reactions App">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="https://josro14.github.io/GiphyApp/" target="_blank">
+                                    <h5>Giphy Reactions App</h5>
+                                </a>
+                                <p>Find all your favorite GIFs</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../public/images/gigspotlogo.png" alt="Local Gigspot">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="https://github.com/josro14/801-Gigspot" target="_blank">
+                                    <h5>Local Gigspot</h5>
+                                </a>
+                                <p>Connecting local musicians with local venues</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../public/images/gem.png" alt="Crystal Collector">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="https://github.com/josro14/Crystal-Collector" target="_blank">
+                                    <h5>Crystal Collector</h5>
+                                </a>
+                                <p>Try to collect just the right amount of crystals in this fun game</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../public/images/Cool Text - HANGMAN2.png" alt="LOTR Hangman">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="https://github.com/josro14/Hangman-Game/tree/master/assets/images" target="_blank">
+                                    <h5>Lord of the Rings Hangman</h5>
+                                </a>
+                                <p>"Some letters to rule them all, some letters to find them..."</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../public/images/train-background.png" alt="Train Tracker">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="https://josro14.github.io/TrainGame/" target="_blank">
+                                    <h5>Train Tracker</h5>
+                                </a>
+                                <p>Don't miss your train!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../public/images/outdoorrepologo.png" alt="Outdoor Repo">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a href="https://github.com/acd37/outdoorRepo" target="_blank">
+                                    <h5>Outdoor Repo</h5>
+                                </a>
+                                <p>Purchase all of your outdoor gear here, while making a difference</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                {{!--
                 <div class="col-sm-12 col-md-7 mb-sm-4 mb-md-0 ">
                     <div class="card mb-4 folioBody">
                         <div class="card-body text-left">
@@ -85,7 +164,7 @@
                             <div class="row-md-12">
                                 <div class="card-deck">
                                     <div class="row">
-                                        <div class="card col-md-5">
+                                        <div class="col-md-5">
                                             <a href="https://josro14.github.io/GiphyApp/" target="_blank">
                                                 <img class="card-img-top" src="../public/images/giphy_logo.png" alt="Giphy App">
                                             </a>
@@ -93,7 +172,7 @@
                                                 <h5 class="card-title">Giphy Reactions App</h5>
                                             </div>
                                         </div>
-                                        <div class="card col-md-5">
+                                        <div class="col-md-5">
                                             <a href="https://github.com/josro14/801-Gigspot" target="_blank">
                                                 <img class="card-img-top" src="../public/images/gigspotlogo.png" alt="Gigspot">
                                             </a>
@@ -101,7 +180,7 @@
                                                 <h5 class="card-title">801-Gigspot</h5>
                                             </div>
                                         </div>
-                                        <div class="card col-md-5">
+                                        <div class="col-md-5">
                                             <a href="https://github.com/josro14/Crystal-Collector" target="_blank">
                                                 <img class="card-img-top" src="../public/images/gem.png" alt="Crystal Collector">
                                             </a>
@@ -111,7 +190,7 @@
                                         </div>
                                     </div>
                                     <div class="row sec-row">
-                                        <div class="card col-md-5">
+                                        <div class="col-md-5">
                                             <a href="https://github.com/josro14/Hangman-Game/tree/master/assets/images" target="_blank">
                                                 <img class="card-img-top" src="../public/images/Cool Text - HANGMAN2.png" alt="Hangman Game">
                                             </a>
@@ -119,7 +198,7 @@
                                                 <h5 class="card-title">LOTR Hangman</h5>
                                             </div>
                                         </div>
-                                        <div class="card col-md-5">
+                                        <div class="col-md-5">
                                             <a href="https://josro14.github.io/TrainGame/" target="_blank">
                                                 <img class="card-img-top" src="../public/images/train-background.png" alt="Train Tracker">
                                             </a>
@@ -127,7 +206,7 @@
                                                 <h5 class="card-title">Train Tracker</h5>
                                             </div>
                                         </div>
-                                        <div class="card col-md-5">
+                                        <div class="col-md-5">
                                             <a href="https://github.com/acd37/outdoorRepo" target="_blank">
                                                 <img class="card-img-top" src="../public/images/outdoorrepologo.png" alt="Outdoor Repo">
                                             </a>
@@ -140,7 +219,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-md-3">
                     <div class="card mb-4 connectWith">
                         <div class="card-body text-center">

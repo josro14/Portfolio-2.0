@@ -88,6 +88,15 @@ p {
     text-shadow: 2px 2px 5px black;
 }
 
+h5 {
+    text-shadow: 2px 2px 5px black;
+    color: white;
+}
+
+h5:hover {
+    text-decoration: none;
+}
+
 p.card-text {
     text-align: left;
 }
